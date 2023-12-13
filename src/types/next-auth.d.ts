@@ -1,13 +1,12 @@
-import NextAuth, { DefaultSession, DefaultUser } from "next-auth";
+import NextAuth from 'next-auth';
 
-declare module "next-auth" {
-
+declare module 'next-auth' {
   interface User {
-    token: string,
-    bio: string,
+    token: string;
+    bio: string;
   }
 
   interface Session {
-    accessToken: string | unknown,
+    accessToken: string | unknown;
   }
 }

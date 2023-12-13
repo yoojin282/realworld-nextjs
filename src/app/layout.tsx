@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import TopNavigation from "@/compoments/common/top";
-import { sansPro, serifPro, titillium } from "@/fonts";
-import Footer from "@/compoments/common/footer";
-import { IconContext } from "react-icons";
+import type { Metadata } from 'next';
+import './globals.css';
+import TopNavigation from '@/compoments/common/top';
+import { sansPro, serifPro, titillium } from '@/fonts';
+import Footer from '@/compoments/common/footer';
+import { IconContext } from 'react-icons';
 
 export const metadata: Metadata = {
-  title: "RealWorld",
+  title: 'RealWorld',
   description:
-    "RealWorld app implementation powered by Next.js 13+ (Layout, Server Components and so on)",
+    'RealWorld app implementation powered by Next.js 13+ (Layout, Server Components and so on)',
 };
 
 export default function RootLayout({
